@@ -55,25 +55,31 @@ h1 {
   line-height: 2;
 }
 .about-section {
-  padding: 160px 20px;
+  color: white;
+  padding: 60px 65px;
+  border: 40%;
+  background-color: #524668;
+  text-align: center;
+  border-radius: 12px;
 }
-.about-section h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
+
 .about-section h2 {
   font-family: var(--supporting-font);
   font-size: 18px;
   font-weight: bold;
 }
 .about-section-content {
-  margin: 30px;
+  margin: 10px;
 }
 .about-section-content h3 {
   font-size: 24px;
   font-family: var(--supporting-font);
   font-weight: bold;
   line-height: 1.5;
+}
+.about-section p {
+  text-align: start;
+  font-size: 14px;
 }
 .btn-branding {
   background: #6836bc;
@@ -163,11 +169,14 @@ h4 {
   color: var(--main-colour);
   font-size: 30px;
   background: #dcd0f0;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border-radius: 50px;
   transition: all 100ms ease-in-out;
 }
 .social-links a:hover {
   color: white;
   background: var(--main-colour);
+}
+.container-socials {
+  padding: 40px;
 }
