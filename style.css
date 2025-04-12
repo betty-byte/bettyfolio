@@ -1,0 +1,173 @@
+:root {
+  --main-font: playfair display;
+  --supporting-font: "Poppins", sans-serif;
+  --main-colour: #6836bc;
+}
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  font-family: var(--supporting-font);
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #524668;
+  transition: all 90ms ease-in-out;
+}
+nav a:hover {
+  font-weight: bold;
+}
+nav li.active a {
+  color: var(--main-colour);
+}
+
+.hero {
+  background: #f4f1fe;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero p {
+  font-family: var(--supporting-font);
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+}
+h1 {
+  font-family: var(--main-font);
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 2;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-family: var(--supporting-font);
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section-content h3 {
+  font-size: 24px;
+  font-family: var(--supporting-font);
+  font-weight: bold;
+  line-height: 1.5;
+}
+.btn-branding {
+  background: #6836bc;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+h2 {
+  font-size: 55px;
+  font-family: var(--main-font);
+}
+p {
+  font-family: var(--supporting-font);
+  font-size: 16px;
+  line-height: 30px;
+}
+.btn-branding-outline {
+  border: #6836bc solid 1px;
+  border-radius: 8px;
+  color: #6836bc;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-outline {
+  padding: 30px 50px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .hero h2 {
+    padding: 60px 10px;
+  }
+
+  .project-outline {
+    padding: 0;
+    text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  nav a {
+    font-size: 12px;
+  }
+  h4 {
+    font-family: var(--main-font);
+    font-size: 18px;
+  }
+}
+footer {
+  margin: 60px 0;
+}
+.contact-box {
+  background: #eeebf1;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.contact-box p {
+  margin: 0 auto;
+}
+h4 {
+  font-family: var(--main-font);
+  font-size: 30px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--supporting-font);
+}
+.email-link:hover {
+  color: var(--main-colour);
+}
+.social-links a {
+  margin: 0 20px;
+  color: var(--main-colour);
+  font-size: 30px;
+  background: #dcd0f0;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+  color: white;
+  background: var(--main-colour);
+}
