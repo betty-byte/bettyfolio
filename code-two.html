@@ -16,32 +16,41 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
       />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet"
+      />
       <title>Document</title>
 
       <style>
         body {
           background-color: #524568;
         }
-        h1 {
-          text-align: center;
-          color: #895e4f;
-        }
 
         h2 {
           text-align: center;
-          color: #895e4f;
+          color: #edebf0;
+          font-family: playfair display;
+        }
+        h3 {
+          font-size: 18px;
+          margin: 10px;
+          color: #524568;
         }
         .container {
-          max-width: 800px;
+          max-width: 50%;
           background: #edebf0;
           padding: 20px;
           border-radius: 10px;
           margin: 30px auto;
           border: 3px white dotted;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
         }
         img {
           max-width: 100%;
-          border: 3px solid rgb(242, 235, 235);
+          border: 1px dotted #524568;
         }
         button {
           display: block;
@@ -75,21 +84,54 @@
           transform: scale(1.5);
           border: 6px solid #edebf0;
         }
+        .homebut a {
+          margin: 30px;
+          text-align: right;
+          text-decoration: none;
+          color: #524568;
+        }
+        .homebut {
+          margin: 30px;
+          text-align: center;
+          text-decoration: none;
+
+          padding: 10px;
+          font-size: 18px;
+          background-color: #edebf0;
+          margin-left: 85%;
+          border-radius: 15px;
+        }
       </style>
     </head>
     <body>
-      <div><a href="/index.html">Home</a></div>
+      <div class="homebut"><a href="/index.html">Home</a></div>
+      <div><h2>Coding Projects</h2></div>
       <div class="container">
-        <h3>Coding Projects</h3>
-
         <div class="grid-four">
-          <div><img src="images/ai-poem.png" alt="" />Main one</div>
-          <div><img src="images/african-time.jpg" alt="" />Main</div>
-          <img src="images/weather.png" alt="" />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaW9WdC0ThMtU_kGQ8-ytlzhwF7xHFCvCK9w&s"
-            alt=""
-          />
+          <div>
+            <a
+              href="https://mantswe-poem-generator.netlify.app/"
+              target="_blank"
+              ><img src="images/ai-poem.png" alt=""
+            /></a>
+            <h3>
+              Let AI-Spear put it into words for you. How? You ask, well - click
+              on the picture above and find out.
+            </h3>
+          </div>
+          <div>
+            <a href="https://african-time.netlify.app/" target="_blank"
+              ><img src="images/world-clock.png" alt=""
+            /></a>
+            <h3>
+              African time is good and all but what about the rest of the world?
+            </h3>
+          </div>
+          <a href="https://seventhshecodeshw.netlify.app/" target="_blank"
+            ><img src="images/weather-new.png" alt=""
+          /></a>
+
+          <img src="images/cup-cakes.png" alt="" />
         </div>
       </div>
       <footer>Coded by Betty Tsotetsi</footer>
