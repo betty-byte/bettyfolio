@@ -32,6 +32,20 @@ nav li.active a {
   color: var(--main-colour);
 }
 
+.social-hero {
+  background-color: #524668;
+  padding-left: 30px;
+  color: #edebf1;
+  max-width: 25%;
+  margin-right: 65%;
+  margin-left: 10px;
+  border-bottom-right-radius: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.somebody {
+  background-color: #eeebf1;
+}
 .hero {
   background: #f4f1fe;
   text-align: center;
@@ -66,9 +80,10 @@ h1 {
 }
 
 .about-section h2 {
-  font-family: var(--supporting-font);
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: lighter;
+  color: white;
 }
 .about-section-content {
   margin: 10px;
@@ -135,6 +150,8 @@ p {
   nav a {
     font-size: 12px;
   }
+  .cont-bet {
+  }
   h4 {
     font-family: var(--main-font);
     font-size: 18px;
@@ -167,10 +184,10 @@ h4 {
   color: var(--main-colour);
 }
 .social-links a {
-  margin: 20px;
-  color: var(--about-colour);
+  margin: 15px 35px;
+  color: #edebf1;
   font-size: 30px;
-  background: rgb(251, 208, 215);
+  background-color: #7a708f;
   padding: 15px;
   border-radius: 40px 25px;
   transition: all 100ms ease-in-out;
@@ -180,10 +197,11 @@ h4 {
   color: white;
   background: var(--main-colour);
 }
+
 .about-contact-section h1 {
   color: var(--about-colour);
   font-size: 35px;
-  background-color: #eeebf1;
+
   max-width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -206,4 +224,26 @@ hr {
   margin-left: 30%;
   margin-right: 30%;
   color: #6836bc;
+}
+.phone {
+  background-color: #eeebf1;
+  margin-bottom: 15px;
+}
+.mail {
+  background-color: #eeebf1;
+}
+i {
+  margin: 10px;
+}
+.grid-four {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+  margin: 20px 0;
+}
+.my-title h1 {
+  font-size: 30px;
+  text-align: center;
+  color: #524668;
+  margin: 40px;
 }
